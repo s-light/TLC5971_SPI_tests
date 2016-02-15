@@ -20,7 +20,7 @@ import ctypes
 import time
 
 
-class TLC5971_DATA(Structure):
+class TLC5971_DATA(ctypes.Structure):
 
     """
     TLC5971 data structure.
